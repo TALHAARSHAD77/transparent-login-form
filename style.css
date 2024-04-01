@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Heebo:wght@100..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./london.jpg);
+  background-repeat: no-repeat;
+  background-size: 1400px 700px;
+  color: white;
+  font-family: "Heebo", sans-serif;
+}
+.form {
+  margin-top: 180px;
+}
+div h1 {
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 30px;
+  border-bottom: 3px solid purple;
+  width: 80%;
+  text-align: left;
+}
+
+div.box {
+  margin-bottom: 20px;
+  border-bottom: 2px solid purple;
+}
+.box input {
+  border: none;
+  outline: none;
+  padding: 2px 8px;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+button {
+  border: 1px solid purple;
+  border-radius: 5px;
+  padding: 4px;
+  width: 35%;
+  background: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: chocolate;
+  cursor: pointer;
+}
